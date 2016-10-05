@@ -1,11 +1,10 @@
-val scalaVersion        = "2.11.8"
 val kafkaStreamsVersion = "0.12"
 
 lazy val `kafka-eg` = project
   .in(file("."))
   .settings(
     organization := "net.lockney",
-    scalaVersion := scalaVersion,
+    scalaVersion := "2.11.8",
     scalacOptions ++= Vector(
       "-unchecked",
       "-deprecation",
